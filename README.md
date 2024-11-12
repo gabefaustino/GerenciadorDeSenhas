@@ -1,6 +1,9 @@
-# Gerenciador de Senhas 🔐
+# Gerenciador de Senhas Simples 🔐
 
 Este projeto é um gerenciador de senhas simples que armazena e recupera senhas de maneira segura. Ele utiliza criptografia `Fernet` para proteger as senhas e armazena-as em arquivos de texto, simulando um banco de dados.
+
+## Requistos
+- **Python 3.10+**
 
 ## Funcionalidades
 
@@ -8,6 +11,13 @@ Este projeto é um gerenciador de senhas simples que armazena e recupera senhas 
 - **Recuperação de Senhas Criptografadas:** Permite descriptografar e visualizar senhas salvas.
 - **Persistência em Arquivo:** Armazena dados em arquivos de texto, simulando um banco de dados.
 - **Interface de Usuário Interativa:** Permite ao usuário salvar novas senhas ou recuperar senhas existentes.
+
+### Pré-requisitos
+
+- Certifique-se de ter o Python 3.10+ instalado, pois o código utiliza a estrutura `match`, disponível a partir dessa versão.
+- Instale as dependências necessárias, como `cryptography`, usando o comando:
+  ```bash
+  pip install cryptography
 
 ## Funcionamento Geral do Código
 
