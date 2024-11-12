@@ -21,14 +21,6 @@ Este projeto é um gerenciador de senhas simples que armazena e recupera senhas 
 
 ## Funcionamento Geral do Código
 
-### Estrutura Principal
-
-O projeto possui três arquivos principais:
-
-1. **BaseModel:** Classe base para manipulação de dados.
-2. **Password:** Subclasse que representa uma senha, herdando os métodos de `BaseModel` e adicionando métodos específicos.
-3. **Arquivo Principal:** Arquivo que contém o código de execução, onde o usuário escolhe entre salvar ou recuperar senhas.
-
 ### Fluxo de Operações
 
 1. Ao escolher salvar uma nova senha:
